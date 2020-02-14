@@ -34,18 +34,18 @@ public class MainActivity extends AppCompatActivity {
             // get JSONObject from JSON file
             JSONObject obj = new JSONObject(loadJSONFromAsset());
             // fetch JSONArray named users
-            JSONArray userArray = obj.getJSONArray("items");
+            JSONArray itemArray = obj.getJSONArray("items");
             // implement for loop for getting users list data
-            for (int i = 0; i < userArray.length(); i++) {
+            for (int i = 0; i < itemArray.length(); i++) {
                 // create a JSONObject for fetching single user data
-                JSONObject userDetail = userArray.getJSONObject(i);
+                JSONObject itemDetail = itemArray.getJSONObject(i);
                 // fetch email and name and store it in arraylist
-                itemNames.add(userDetail.getString("name"));
-                itemPrices.add(userDetail.getString("price"));
+                itemNames.add(itemDetail.getString("name"));
+                itemPrices.add(itemDetail.getString("price"));
 //                // create a object for getting contact data from JSONObject
-//                JSONObject contact = userDetail.getJSONObject("contact");
+//                JSONObject contact = itemDetail.getJSONObject("contact");
                 // fetch mobile number and store it in arraylist
-                itemDescriptions.add(userDetail.getString("description"));
+                itemDescriptions.add(itemDetail.getString("description"));
             }
         } catch (JSONException e) {
             e.printStackTrace();
