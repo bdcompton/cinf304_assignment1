@@ -1,0 +1,60 @@
+{
+    "items": [
+      {
+        "price": "$14.95",
+        "name": "Arroz con Pollo",
+        "description": "Chicken mixed with flavorful yellow rice."
+      },
+      {
+        "price": "$19.00",
+        "name": "Arroz con Camarones",
+        "description": "Shrimp mixed with flavorful yellow rice."
+      },
+      {
+        "price": "$14.95",
+        "name": "Arroz con Calamares",
+        "description": "Squid mixed with flavorful yellow rice."
+      },
+      {
+        "price": "$19.00",
+        "name": "Arroz con Pulpo",
+        "description": "Octopus mixed with flavorful yellow rice."
+      },
+      {
+        "price": "$33.95",
+        "name": "Paella Marinera",
+        "description": "Special yellow rice with a medley of seafood."
+      },
+      {
+        "price": "$33.95",
+        "name": "Paella Valenciana",
+        "description": "Special yellow rice with a variety of meats (chicken, beef and pork) and seafood."
+      },
+      {
+        "price": "$14.35",
+        "name": "Asopao de Pollo",
+        "description": "Savory soupy rice with chicken."
+      },
+      {
+        "price": "$19.00",
+        "name": "Asopao de Camarones",
+        "description": "Savory soupy rice with shrimp."
+      },
+      {
+        "price": "$33.95",
+        "name": "Asopao de Mariscos Mixtos",
+        "description": "Savory soupy rice with a medley of seafood."
+      },
+      {
+        "price": "$19.00",
+        "name": "Sopa de Camarones",
+        "description": "Shrimp soup."
+      },
+      {
+        "price": "$16.70",
+        "name": "Sopa de Pescado",
+        "description": "Fish soup."
+      }
+    ]
+  }
+}
